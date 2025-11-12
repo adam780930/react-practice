@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function Clipboard() {
+export default function Clipboards() {
   const [clipText, setClipText] = useState("");
 
   async function getClipboardText() {
