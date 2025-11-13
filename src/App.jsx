@@ -3,7 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-import Clipboards from './components/Clipboards'
+import Clipboards from './components/Clipboards.jsx'
+import Button from './components/Button.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,9 +21,7 @@ function App() {
       </div>
       <h1>test</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+        <Button onClick={() => setCount((count) => count + 1)} buttonName={`count is ${count}`}/>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
