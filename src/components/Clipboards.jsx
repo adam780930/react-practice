@@ -21,7 +21,7 @@ export default function Clipboards() {
   return (
     <div>
       <h1>
-        <Button onClick={getClipboardText} buttonName={'Clickpls'}/>
+        <Button onClick={getClipboardText} buttonName={'clickpls'}/>
       </h1>
       <p>{clipText}</p>
       <p>{currentText}</p>

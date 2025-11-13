@@ -1,37 +1,33 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
 
-import Clipboards from './components/Clipboards.jsx'
-import Button from './components/Button.jsx'
+import Navigation from "./components/Navigation.jsx";
+import Clipboards from "./components/Clipboards.jsx";
+import Button from "./components/Button.jsx";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>test</h1>
+      <Navigation />
       <div className="card">
-        <Button onClick={() => setCount((count) => count + 1)} buttonName={`count is ${count}`}/>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+        <Button
+          onClick={() => setCount((count) => count + 1)}
+          buttonName={`count is ${count}`}
+        />
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet atque
+        odit dolores! Perspiciatis qui esse vero corrupti deserunt velit
+        repellendus iure nemo eos, quaerat, officiis fuga explicabo accusamus.
+        Eum, cum.
       </p>
-      <Clipboards/>
+      <Clipboards />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
