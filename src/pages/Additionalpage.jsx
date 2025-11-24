@@ -1,3 +1,9 @@
-export default function Additionalpage() {
-  return <div>this is additional page</div>;
+function Additionalpage() {
+  return (
+    <div>
+      <span>this is additional page</span>
+    </div>
+  );
 }
+
+export default Additionalpage;
