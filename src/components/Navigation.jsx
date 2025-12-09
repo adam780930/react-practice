@@ -1,18 +1,33 @@
-export default function Navigation() {
+import { Link } from "react-router-dom";
+
+function Navigation() {
   return (
     <header>
-      <div>
-      </div>
+      <div></div>
       <nav>
         <ul>
           <li>
-            <p>home</p>
+            <Link to="/">home</Link>
           </li>
           <li>
-            <p>other</p>
+            <Link to="sub">Sub page</Link>
+          </li>
+          <li>
+            <Link to="markdown">markdown example page</Link>
+          </li>
+          <li>
+            <Link to="introduction">Introduction page</Link>
+          </li>
+          <li>
+            <Link to="additional">Additional page</Link>
+          </li>
+          <li>
+            <Link to="example">Example page</Link>
           </li>
         </ul>
       </nav>
     </header>
   );
 }
+
+export default Navigation;

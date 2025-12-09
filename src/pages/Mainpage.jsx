@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Navigation from "../components/Navigation";
 import Clipboards from "../components/Clipboards";
 import Button from "../components/Button";
 
@@ -7,7 +6,6 @@ function Mainpage() {
     const [count, setCount] = useState(0);
   return (
     <div>
-            <Navigation />
             <div className="card">
               <Button
                 onClick={() => setCount((count) => count + 1)}
