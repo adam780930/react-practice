@@ -6,6 +6,7 @@ function Introduction() {
     <div>
       <div>this is Introductions page</div>
       <Markdown>{introduction}</Markdown>
+      <div class="my-5 text-primary">extra text</div>
     </div>
   );
 }
