@@ -5,7 +5,9 @@ function Introduction() {
   return (
     <div>
       <div>this is Introductions page</div>
-      <Markdown>{introduction}</Markdown>
+      <div className="bg-stone-800">
+      <Markdown >{introduction}</Markdown>
+      </div>
     </div>
   );
 }
