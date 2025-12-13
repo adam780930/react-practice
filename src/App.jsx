@@ -12,6 +12,7 @@ function App() {
   return (
     <div>
       <Navigation />
+      <div className="py-10 my-10"></div>
       <Routes>
         <Route path="/" element={<Mainpage />} />
         <Route path="/sub" element={<Submainpage />} />
