@@ -1,12 +1,19 @@
+I am a passionate, highly motivated and self-driven Full-Stack software engineer living in California. My primary dev stack are: JavaScript, TypeScript, React, Angular, HTML, CSS, Rest API, Node, Express, and PostgreSQL.
+
+I completed the engineering course with [**Chegg Skills**](https://www.chegg.com/skills/)(formerly known as Thinkful) in 2023 and briefly worked as a JavaScript Software Developer(contracted position) at [**Apple Inc.**](https://www.apple.com/) for the development of internal tools.
+
+I am dedicated to continuous learning and improvement in the field of web development. I am always seeking new challenges and opportunities to grow. Connect with me on [**Linkedin**](https://www.linkedin.com/in/adam-yilin-tsai), check out my [**GitHub**](https://github.com/adam780930) profile, or check out the Home tab to see more of my work.
+
+\
 This is an example project I am working on to demonstrate my ability to create a react project, utilizing existing libraries. This project is built with base on React + Vite.
 
 \
 **Some of the features and libraies implemented so far:**
 - React Markdown
 - react-router-dom
+- Tailwind CSS
 
 \
 **Implementation planned:**
 - react-pdf (feature to render pdf file on the app)
 - emailjs (submission contact form that will send an email to me)
-- Bootstrap or Tailwind CSS (still deciding)
