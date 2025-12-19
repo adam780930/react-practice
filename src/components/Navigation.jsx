@@ -6,7 +6,7 @@ function Navigation() {
     { link: "markdown", linkText: "Markdown" },
     { link: "introduction", linkText: "Introduction" },
     { link: "additional", linkText: "Additional" },
-    { link: "example", linkText: "Example" },
+    { link: "example", linkText: "Example Projects" },
   ];
 
   return (
