@@ -13,8 +13,8 @@ function ExampleProjects() {
 
   return (
     <div>
-      <div className="grid grid-cols-2 gap-4">
-        <div className="border-2 border-gray-400 p-4 cursor-pointer hover:bg-stone-600">
+      <div className="grid grid-cols-2 divide-x divide-y border border-gray-600">
+        <div className="p-4 cursor-pointer hover:bg-stone-600">
           <img
             src={reservation}
             onClick={() => {
@@ -22,7 +22,7 @@ function ExampleProjects() {
             }}
           ></img>
         </div>
-        <div className="border-2 border-gray-400 p-4 cursor-pointer hover:bg-stone-600">
+        <div className="p-4 cursor-pointer hover:bg-stone-600">
           <img
             src={flashcard}
             onClick={() => {
@@ -30,7 +30,7 @@ function ExampleProjects() {
             }}
           ></img>
         </div>
-        <div className="border-2 border-gray-400 p-4 cursor-pointer hover:bg-stone-600">
+        <div className="p-4 cursor-pointer hover:bg-stone-600">
           <img
             src={decoder}
             onClick={() => {
@@ -38,7 +38,7 @@ function ExampleProjects() {
             }}
           ></img>
         </div>
-        <div className="border-2 border-gray-400 p-4 cursor-pointer hover:bg-stone-600">
+        <div className="p-4 cursor-pointer hover:bg-stone-600">
           <img
             src={recipes}
             onClick={() => {
