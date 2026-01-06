@@ -7,10 +7,12 @@ import Examplepage from "./pages/Examplepage.jsx";
 import Additionalpage from "./pages/Additionalpage.jsx";
 import Markdownpage from "./pages/Markdownpage.jsx";
 import Introduction from "./pages/Introduction.jsx";
+import Background from "./components/Background.jsx";
 
 function App() {
   return (
     <div>
+      <Background />
       <Navigation />
       <div className="py-10 my-10"></div>
       <Routes>
