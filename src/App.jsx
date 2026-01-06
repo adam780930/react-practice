@@ -7,20 +7,23 @@ import Examplepage from "./pages/Examplepage.jsx";
 import Additionalpage from "./pages/Additionalpage.jsx";
 import Markdownpage from "./pages/Markdownpage.jsx";
 import Introduction from "./pages/Introduction.jsx";
+import background from "./assets/background.jpeg";
 
 function App() {
   return (
-    <div>
-      <Navigation />
-      <div className="py-10 my-10"></div>
-      <Routes>
-        <Route path="/" element={<Mainpage />} />
-        <Route path="/sub" element={<Submainpage />} />
-        <Route path="/example" element={<Examplepage />} />
-        <Route path="/additional" element={<Additionalpage />} />
-        <Route path="/markdown" element={<Markdownpage />} />
-        <Route path="/introduction" element={<Introduction />} />
-      </Routes>
+    <div className="bg-[url('./assets/background.jpeg')] absolute inset-0 bg-no-repeat bg-cover bg-center z-0">
+      <div>
+        <Navigation />
+        <div className="py-10 my-10"></div>
+        <Routes>
+          <Route path="/" element={<Mainpage />} />
+          <Route path="/sub" element={<Submainpage />} />
+          <Route path="/example" element={<Examplepage />} />
+          <Route path="/additional" element={<Additionalpage />} />
+          <Route path="/markdown" element={<Markdownpage />} />
+          <Route path="/introduction" element={<Introduction />} />
+        </Routes>
+      </div>
     </div>
   );
 }
