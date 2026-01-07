@@ -11,7 +11,7 @@ function Introduction() {
             <img src={Portrait} className="w-70 h-70 rounded-full border"></img>
           </div>
           <div>
-            <span>Hello, I am Adam.</span>
+            <span className="text-3xl">Hello, I am Adam.</span>
             <Markdown>{introduction}</Markdown>
           </div>
         </div>

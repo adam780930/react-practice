@@ -1,3 +1,5 @@
+# Hello, I am Adam.
+
 I am a passionate, highly motivated and self-driven Full-Stack software engineer living in California. My primary dev stack are: JavaScript, TypeScript, React, Angular, HTML, CSS, Rest API, Node, Express, and PostgreSQL.
 
 I completed the engineering course with [**Chegg Skills**](https://www.chegg.com/skills/)(formerly known as Thinkful) in 2023 and briefly worked as a JavaScript Software Developer(contracted position) at [**Apple Inc.**](https://www.apple.com/) for the development of internal tools.
