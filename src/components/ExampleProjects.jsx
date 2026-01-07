@@ -2,6 +2,7 @@ import reservation from "../assets/reservation.png";
 import flashcard from "../assets/flashcard.png";
 import decoder from "../assets/decoder.png";
 import recipes from "../assets/recipes.png";
+import Button from "./Button.jsx";
 
 function ExampleProjects() {
   const projectLinks = [
@@ -25,9 +26,10 @@ function ExampleProjects() {
 
   return (
     <div>
-      <div className="grid grid-cols-2 divide-x divide-y border border-gray-600">
+      <h1 className="p-2">React Projects</h1>
+      <div className="grid grid-cols-2 border">
         {projectLinks.map((project) => (
-          <div className="p-4 cursor-pointer hover:bg-stone-600">
+          <div className="cursor-pointer hover:opacity-50 border">
             <img
               src={project.projectName}
               onClick={() => {
@@ -36,6 +38,14 @@ function ExampleProjects() {
             ></img>
           </div>
         ))}
+      </div>
+      <div className="p-2 hover:opacity-50">
+        <Button
+          onClick={() => {
+            window.open("https://project.adamtsaidev.com");
+          }}
+          buttonName={"Vanilla JavaScript Projects"}
+        />
       </div>
     </div>
   );
