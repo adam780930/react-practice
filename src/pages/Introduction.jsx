@@ -10,7 +10,7 @@ function Introduction() {
           <div className="m-auto p-auto">
             <img src={Portrait} className="w-70 h-70 rounded-full border"></img>
           </div>
-          <div className="markdown-content">
+          <div className="prose">
             <Markdown>{introduction}</Markdown>
           </div>
         </div>
