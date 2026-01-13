@@ -29,7 +29,7 @@ function ExampleProjects() {
       <h1 className="p-2 text-center">React Projects</h1>
       <div className="grid grid-cols-2 border">
         {projectLinks.map((project) => (
-          <div className="cursor-pointer hover:opacity-50 border">
+          <div className="cursor-pointer hover:opacity-50 border" key={project.projectName}>
             <img
               src={project.projectName}
               onClick={() => {

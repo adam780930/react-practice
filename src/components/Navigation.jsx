@@ -22,7 +22,7 @@ function Navigation() {
             <div className="hidden lg:block">
               <ul className="flex flex-col gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
                 {pages.map((page) => (
-                  <li className="flex items-center p-1 text-sm gap-x-2 text-slate-600">
+                  <li className="flex items-center p-1 text-sm gap-x-2 text-slate-600" key={page.linkText}>
                     <Link to={page.link}>
                       <div className="flex items-center">{page.linkText}</div>
                     </Link>
