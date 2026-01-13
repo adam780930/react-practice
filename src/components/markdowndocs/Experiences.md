@@ -1,9 +1,9 @@
 Technical Skills:
 --- 
-Frontend: TypeScript, JavaScript, React.js, Angular.js, HTML5, CSS3, Flexbox, Tailwind CSS, and Bootstrap
-Backend: Node.js, Express.js, RESTful API, and PostgreSQL
-Tools: Mocha, Chai, Knex, Git, GitHub, Node Package Manager, DBeaver, Postman, Visual Studio Code
-Additional Skills: Mandarin, Japanese
+**Frontend:** TypeScript, JavaScript, React.js, Angular.js, HTML5, CSS3, Flexbox, Tailwind CSS, and Bootstrap \
+**Backend:** Node.js, Express.js, RESTful API, and PostgreSQL \
+**Tools:** Mocha, Chai, Knex, Git, GitHub, Node Package Manager, DBeaver, Postman, Visual Studio Code \
+**Additional Skills:** Mandarin, Japanese
 
 \
 Work Experiences:

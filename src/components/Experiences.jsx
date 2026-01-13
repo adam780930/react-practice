@@ -4,7 +4,7 @@ import Exp from "./markdowndocs/Experiences.md";
 
 function Experiences() {
 return (
-    <div>
+    <div className="prose">
         <Markdown>{Exp}</Markdown>
     </div>
 )
