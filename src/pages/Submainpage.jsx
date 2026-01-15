@@ -5,7 +5,7 @@ import Button from "../components/Button";
 function Submainpage() {
   const [count, setCount] = useState(0);
   return (
-    <div className="bg-stone-block w-full max-w-5xl px-4 py-2 mx-auto bg-stone-300">
+    <div className="bg-stone-block w-full max-w-5xl px-4 py-2 mx-auto bg-stone-300 rounded">
       <div className="card">
         <Button
           onClick={() => setCount((count) => count + 1)}
