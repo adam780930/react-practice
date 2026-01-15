@@ -5,7 +5,7 @@ function Navigation() {
     { link: "sub", linkText: "Sub Page" },
     { link: "markdown", linkText: "Markdown" },
     { link: "introduction", linkText: "Introduction" },
-    { link: "additional", linkText: "Additional" },
+    { link: "contact", linkText: "Contact Me" },
     { link: "example", linkText: "Example Projects" },
   ];
 
