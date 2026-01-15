@@ -16,7 +16,7 @@ function ContactPage() {
   }
 
   return (
-    <div className="bg-stone-block w-full max-w-5xl px-4 py-2 mx-auto bg-stone-300">
+    <div className="bg-stone-block w-full max-w-5xl px-4 py-2 mx-auto bg-stone-300 rounded">
       <form className="max-w-full mx-auto" onSubmit={Emailsubmit}>
         <header className="mb-5 my-2 text-center text-3xl">
           <span>Send me an email</span>
@@ -83,7 +83,7 @@ function ContactPage() {
           ></textarea>
         </div>
         <div className="mb-5 p-2 hover:opacity-50 text-center">
-          <Buttons buttonName={"Send Message"} buttonType={"submit"}/>
+          <Buttons buttonName={"Send Message"} buttonType={"submit"} />
         </div>
       </form>
     </div>

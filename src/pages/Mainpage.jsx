@@ -9,9 +9,9 @@ function Mainpage() {
   const handleCloseModal = () => setIsModalOpen("hidden");
 
   return (
-    <div className="bg-stone-block w-full max-w-5xl px-4 py-2 mx-auto bg-stone-300">
+    <div className="bg-stone-block w-full max-w-5xl px-4 py-2 mx-auto bg-stone-300 rounded">
       <div className="hover:opacity-50">
-      <Buttons buttonName={"Experiences"} onClick={handleOpenModal} />
+        <Buttons buttonName={"Experiences"} onClick={handleOpenModal} />
       </div>
 
       <div className={isModalOpen}>

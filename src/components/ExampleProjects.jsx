@@ -26,10 +26,13 @@ function ExampleProjects() {
 
   return (
     <div>
-      <h1 className="p-2 text-center">React Projects</h1>
+      <h1 className="p-4 text-3xl text-center">React Projects</h1>
       <div className="grid grid-cols-2 border">
         {projectLinks.map((project) => (
-          <div className="cursor-pointer hover:opacity-50 border" key={project.projectName}>
+          <div
+            className="cursor-pointer hover:opacity-50 border"
+            key={project.projectName}
+          >
             <img
               src={project.projectName}
               onClick={() => {
@@ -39,7 +42,7 @@ function ExampleProjects() {
           </div>
         ))}
       </div>
-      <div className="p-2 hover:opacity-50 text-center">
+      <div className="p-4 hover:opacity-50 text-center">
         <Button
           onClick={() => {
             window.open("https://project.adamtsaidev.com");
