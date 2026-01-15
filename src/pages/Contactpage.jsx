@@ -1,5 +1,6 @@
 import emailjs from "emailjs-com";
 import Buttons from "../components/Button.jsx";
+import Reacticons from "../components/Reacticons.jsx";
 
 function ContactPage() {
   function Emailsubmit(e) {
@@ -86,6 +87,9 @@ function ContactPage() {
           <Buttons buttonName={"Send Message"} buttonType={"submit"} />
         </div>
       </form>
+      <div className="text-3xl">
+        <Reacticons />
+      </div>
     </div>
   );
 }
