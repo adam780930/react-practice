@@ -4,7 +4,7 @@ import Reacticns from "./Reacticons.jsx";
 function Navigation() {
   const pages = [
     { link: "sub", linkText: "Sub Page" },
-    { link: "markdown", linkText: "Markdown" },
+    { link: "markdown", linkText: "About this Site" },
     { link: "introduction", linkText: "Introduction" },
     { link: "contact", linkText: "Contact Me" },
     { link: "example", linkText: "Example Projects" },

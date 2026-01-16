@@ -12,8 +12,8 @@ This is an example project I am working on to demonstrate my ability to create a
 - React Markdown
 - react-router-dom
 - Tailwind CSS
+- React icons
 
 \
 **Implementation planned:**
 - react-pdf (feature to render pdf file on the app)
-- emailjs (submission contact form that will send an email to me)
