@@ -5,8 +5,7 @@ import Modal from "../components/Modal.jsx";
 
 function Mainpage() {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const handleOpenModal = () => setIsModalOpen(true);
-  const handleCloseModal = () => setIsModalOpen(false);
+  const handleOpenModal = () => setIsModalOpen(!isModalOpen);
 
   return (
     <div className="bg-stone-block w-full max-w-5xl px-4 py-2 mx-auto bg-stone-300 rounded">
@@ -17,7 +16,7 @@ function Mainpage() {
         <Modal
           modalContent={<Experiences />}
           closeButton={
-            <Buttons buttonName={"Close"} onClick={handleCloseModal} />
+            <Buttons buttonName={"Close"} onClick={handleOpenModal} />
           }
         />
       )}
