@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Reacticns from "./Reacticons.jsx";
+import Reacticons from "./Reacticons.jsx";
 
 function Navigation() {
   const pages = [
@@ -21,7 +21,7 @@ function Navigation() {
                   My Landing Page
                 </div>
               </Link>
-              <Reacticns />
+              <Reacticons />
             </div>
             <div className="hidden lg:block">
               <ul className="flex flex-col gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
