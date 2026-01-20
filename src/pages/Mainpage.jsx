@@ -12,7 +12,7 @@ function Mainpage() {
   return (
     <>
       <div className="pb-4">
-        <Introductions />
+        <Introductions handleOpenModal={handleOpenModal} />
       </div>
       <div className="bg-stone-block w-full max-w-5xl px-4 py-2 mx-auto bg-stone-300 rounded">
         <div>
@@ -26,9 +26,6 @@ function Mainpage() {
               }}
               buttonName={"JavaScript Projects"}
             />
-          </div>
-          <div className="p-4 hover:opacity-50">
-            <Buttons buttonName={"My Experiences"} onClick={handleOpenModal} />
           </div>
         </div>
 
