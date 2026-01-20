@@ -1,7 +1,6 @@
 import Markdown from "react-markdown";
 import Portrait from "../assets/Portrait.png";
 import introduction from "../components/markdowndocs/introductions.md";
-import Reacticons from "../components/Reacticons.jsx";
 import Buttons from "../components/Button.jsx";
 
 function Introduction({ handleOpenModal }) {
@@ -20,9 +19,6 @@ function Introduction({ handleOpenModal }) {
           </div>
           <div className="prose">
             <Markdown>{introduction}</Markdown>
-          </div>
-          <div className="text-3xl">
-            <Reacticons />
           </div>
         </div>
       </div>

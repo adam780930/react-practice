@@ -11,7 +11,7 @@ function Mainpage() {
 
   return (
     <>
-      <div className="pb-4">
+      <div className="pb-8">
         <Introductions handleOpenModal={handleOpenModal} />
       </div>
       <div className="bg-stone-block w-full max-w-5xl px-4 py-2 mx-auto bg-stone-300 rounded">
