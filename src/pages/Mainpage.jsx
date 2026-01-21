@@ -18,17 +18,7 @@ function Mainpage() {
         <div>
           <ExampleProjects />
         </div>
-        <div className="flex justify-center">
-          <div className="p-4 hover:opacity-50">
-            <Buttons
-              onClick={() => {
-                window.open("https://project.adamtsaidev.com");
-              }}
-              buttonName={"JavaScript Projects"}
-            />
-          </div>
-        </div>
-
+        <div className="flex justify-center"></div>
         {isModalOpen && (
           <Modal
             modalContent={<Experiences />}

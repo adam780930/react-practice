@@ -14,7 +14,7 @@ function App() {
     <div>
       <Background />
       <Navigation />
-      <div className="py-5 my-5"></div>
+      <div className="py-8"></div>
       <Routes>
         <Route path="/" element={<Mainpage />} />
         <Route path="/sub" element={<Submainpage />} />

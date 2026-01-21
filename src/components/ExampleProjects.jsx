@@ -2,6 +2,7 @@ import reservation from "../assets/reservation.png";
 import flashcard from "../assets/flashcard.png";
 import decoder from "../assets/decoder.png";
 import recipes from "../assets/recipes.png";
+import Buttons from "../components/Button.jsx";
 
 function ExampleProjects() {
   const projectLinks = [
@@ -40,6 +41,14 @@ function ExampleProjects() {
             ></img>
           </div>
         ))}
+      </div>
+      <div className="p-4 text-center hover:opacity-50">
+        <Buttons
+          onClick={() => {
+            window.open("https://project.adamtsaidev.com");
+          }}
+          buttonName={"JavaScript Projects"}
+        />
       </div>
     </div>
   );
