@@ -3,7 +3,6 @@ import Reacticons from "./Reacticons.jsx";
 
 function Navigation() {
   const pages = [
-    { link: "sub", linkText: "Sub Page" },
     { link: "markdown", linkText: "About this Site" },
     { link: "introduction", linkText: "Introduction" },
     { link: "contact", linkText: "Contact Me" },
