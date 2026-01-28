@@ -17,3 +17,5 @@ This is an example project I am working on to demonstrate my ability to create a
 \
 **Implementation planned:**
 - react-pdf (feature to render pdf file on the app)
+- 3 way theme switcher
+- Authentication, user login
