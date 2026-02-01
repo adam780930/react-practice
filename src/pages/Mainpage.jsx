@@ -4,6 +4,7 @@ import ExampleProjects from "../components/ExampleProjects.jsx";
 import Buttons from "../components/Button.jsx";
 import Experiences from "../components/Experiences.jsx";
 import Modal from "../components/Modal.jsx";
+import ThemeToggle from "../components/Themetoggle.jsx"
 
 function Mainpage() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -11,6 +12,7 @@ function Mainpage() {
 
   return (
     <>
+        <ThemeToggle></ThemeToggle>
       <div className="pb-8">
         <Introductions handleOpenModal={handleOpenModal} />
       </div>
