@@ -14,11 +14,11 @@ function App() {
   return (
     <div>
       <Background />
-      <ThemeToggle />
       <Navigation />
+
       <div className="py-8"></div>
       <Routes>
-        <Route path="/" element={<Mainpage  />} />
+        <Route path="/" element={<Mainpage />} />
         <Route path="/sub" element={<Submainpage />} />
         <Route path="/example" element={<Examplepage />} />
         <Route path="/contact" element={<Contactpage />} />
