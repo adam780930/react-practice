@@ -10,14 +10,14 @@ function ContactPage() {
       "service_xtgzfki",
       "template_9ll93ma",
       e.target,
-      "user_kh1diuAotFnI96MCgonLa"
+      "user_kh1diuAotFnI96MCgonLa",
     );
     e.target.reset();
     alert("Thank you for your message!");
   }
 
   return (
-    <div className="bg-stone-block w-full max-w-5xl px-4 py-2 mx-auto bg-stone-300 rounded">
+    <div className="bg-stone-block w-full max-w-5xl px-4 py-2 mx-auto bg-stone-300 text-black rounded dark:bg-black dark:text-white">
       <form className="max-w-full mx-auto" onSubmit={Emailsubmit}>
         <header className="mb-5 my-2 text-center text-3xl">
           <span>Send me an email</span>

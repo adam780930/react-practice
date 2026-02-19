@@ -8,12 +8,14 @@ import Contactpage from "./pages/Contactpage.jsx";
 import Markdownpage from "./pages/Markdownpage.jsx";
 import Introduction from "./pages/Introduction.jsx";
 import Background from "./components/Background.jsx";
+import ThemeToggle from "./components/Themetoggle.jsx";
 
 function App() {
   return (
     <div>
       <Background />
       <Navigation />
+
       <div className="py-8"></div>
       <Routes>
         <Route path="/" element={<Mainpage />} />
