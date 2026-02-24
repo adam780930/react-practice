@@ -7,8 +7,13 @@ import Experiences from "../components/Experiences.jsx";
 import Modal from "../components/Modal.jsx";
 
 function Introduction() {
-    const [isModalOpen, setIsModalOpen] = useState(false);
-    const handleOpenModal = () => setIsModalOpen(!isModalOpen);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const handleOpenModal = () => setIsModalOpen(!isModalOpen);
+
+  const customReactComponents = {
+    h1: ({ node, ...props }) => <h1 style={{ color: "gray" }} {...props} />,
+    a: ({ node, ...props }) => <a style={{ color: "blue" }} {...props} />,
+  };
   return (
     <div>
       <div className="bg-stone-block w-full max-w-5xl px-4 py-2 mx-auto bg-stone-300 text-black rounded dark:bg-black dark:text-white">
@@ -23,19 +28,21 @@ function Introduction() {
             </div>
           </div>
           <div className="prose dark:text-white">
-            <Markdown>{introduction}</Markdown>
+            <Markdown components={customReactComponents}>
+              {introduction}
+            </Markdown>
           </div>
         </div>
       </div>
       <div className="flex justify-center"></div>
-        {isModalOpen && (
-          <Modal
-            modalContent={<Experiences />}
-            closeButton={
-              <Buttons buttonName={"Close"} onClick={handleOpenModal} />
-            }
-          />
-        )}
+      {isModalOpen && (
+        <Modal
+          modalContent={<Experiences />}
+          closeButton={
+            <Buttons buttonName={"Close"} onClick={handleOpenModal} />
+          }
+        />
+      )}
     </div>
   );
 }
