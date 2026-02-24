@@ -11,7 +11,7 @@ const Modal = ({ modalContent, closeButton }) => {
           <div className="p-4 max-h-[70vh] overflow-y-auto text-black dark:text-white">
             {modalContent ? modalContent : ""}
           </div>
-          <div className="p-4 border-t flex justify-end gap-4 dark:text-white">
+          <div className="p-4 border-t flex justify-end gap-4 text-black dark:text-white">
             <div className="hover:opacity-50">
               {closeButton ? closeButton : ""}
             </div>
