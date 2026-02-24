@@ -17,7 +17,7 @@ function Navigation() {
           <div className="container flex flex-wrap items-center justify-between mx-auto text-slate-800">
             <div className="flex items-center gap-1 text-xl">
               <Link to="/">
-                <div className="mr-4 block cursor-pointer py-1.5 text-base text-slate-800 font-semibold">
+                <div className="mr-4 block cursor-pointer py-1.5 text-base text-slate-800 font-semibold dark:text-white">
                   My Landing Page
                 </div>
               </Link>
@@ -27,7 +27,7 @@ function Navigation() {
               <ul className="flex flex-col gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
                 {pages.map((page) => (
                   <li
-                    className="flex items-center p-1 text-sm gap-x-2 text-slate-600"
+                    className="flex items-center p-1 text-sm gap-x-2 text-slate-600 dark:text-white"
                     key={page.linkText}
                   >
                     <Link to={page.link}>
