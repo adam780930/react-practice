@@ -13,9 +13,9 @@ This is an example project I am working on to demonstrate my ability to create a
 - react-router-dom
 - Tailwind CSS
 - React icons
+- Theme switcher (Light & Dark mode)
 
 \
 **Implementation planned:**
-- 3 way theme switcher **<-- currently working on**
 - react-pdf (feature to render pdf file on the app)
 - Authentication, user login
