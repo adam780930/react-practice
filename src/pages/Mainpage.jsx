@@ -24,6 +24,7 @@ function Mainpage() {
             closeButton={
               <Buttons buttonName={"Close"} onClick={handleOpenModal} />
             }
+            onClose={handleOpenModal}
           />
         )}
       </div>

@@ -5,7 +5,7 @@ function Background() {
     <div className="fixed inset-0 -z-10">
       <img
         src={bgImg}
-        className="w-full h-full object-cover opacity-80"
+        className="w-full h-full object-cover opacity-80 dark:opacity-90"
       ></img>
     </div>
   );

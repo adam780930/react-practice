@@ -41,6 +41,7 @@ function Introduction() {
           closeButton={
             <Buttons buttonName={"Close"} onClick={handleOpenModal} />
           }
+          onClose={handleOpenModal}
         />
       )}
     </div>
