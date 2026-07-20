@@ -8,7 +8,7 @@ Technical Skills:
 \
 Work Experiences:
 --- 
-[Apple Inc.](https://www.apple.com/) - Remote (06/2026 – Present)
+[Apple Inc.](https://www.apple.com/) - Cupertino, CA (06/2026 – Present)
 Information Systems and Technology Junior Developer (Rotation Position)
 - Design, execute, and maintain test cases covering end-to-end voice AI call flows, including customer verification, intent detection, and advisor handoff scenarios.
 - Validate critical behavior (e.g., health-topic detection and live-advisor escalation) to ensure safe, compliant conversational handling.
