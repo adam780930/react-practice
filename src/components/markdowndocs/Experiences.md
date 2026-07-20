@@ -8,20 +8,29 @@ Technical Skills:
 \
 Work Experiences:
 --- 
+[Apple Inc.](https://www.apple.com/) - Cuppertino, CA (06/2026 – Present)
+Information Systems and Technology Junior Developer (Rotation Position)
+- Design, execute, and maintain test cases covering end-to-end voice AI call flows, including customer verification, intent detection, and advisor handoff scenarios.
+- Validate critical behavior (e.g., health-topic detection and live-advisor escalation) to ensure safe, compliant conversational handling.
+- Perform regression and cross-environment testing to verify system stability ahead of production releases.
+- Analyze logs to troubleshoot defects and verify correct system behavior across services.
+- Collaborate with cross-functional engineering teams to reproduce, triage, and track resolution of issues identified during testing.
+
+
 [Apple Inc.](https://www.apple.com/) - Cuppertino, CA (01/2024 – 06/2024)
-JavaScript Software Developer (Six-Month Career Experience Position)
-- Developed and maintained in-house applications to streamline the request submission process.
-- Debugged code to ensure optimal performance and functionality.
-- Implemented numerous features following industry best practices to create scalable and efficient solutions.
-- Collaborated in code reviews and provided feedback to improve overall code quality and maintainability.
-- Presented in-house applications to various departments, highlighting their workflow-enhancing benefits.
+JavaScript Software Developer (Six-Month Rotation Position)
+- Develop and maintain an internal application that streamlined the radar submission process, significantly reduced processing time and improved user satisfaction across teams.
+- Optimize internal application performance by debugging and refining code, resulting in increase of system efficiency and ensuring seamless functionality and reliability.
+- Engage in thorough code reviews and provide constructive feedback, boosting overall code quality and maintainability.
+- Collaborate with cross-functional teams, and actively gather requirements and feedback to develop tailored application features, ensure alignment with diverse team workflows and objectives.
+
 
 [Chegg Skills(Thinkful)](https://www.chegg.com/skills/) - Remote Software (02/2023 – 10/2023)
 Engineering Program
 - Full-stack software engineer adept at utilizing JavaScript for front-end and back-end programming.
-- Learned industry best practices and software development standards with a focus on JavaScript, HTML5, CSS3, React.js, Node.js, PostgreSQL, RESTful API, algorithms, and data structures.
-- Developed and deployed mobile-first applications while learning new languages and frameworks.
-- Produced professional projects from concept to completion
+- Learn industry best practices and software development standards with a focus on JavaScript, HTML5, CSS3, React.js, Node.js, PostgreSQL, RESTful API, algorithms, and data structures.
+- Develop and deploy mobile-first applications while learning new languages and frameworks.
+- Produce professional projects from concept to completion
 
 \
 Projects:
