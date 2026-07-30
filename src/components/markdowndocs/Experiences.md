@@ -9,7 +9,7 @@ Technical Skills:
 Work Experiences:
 --- 
 [Apple Inc.](https://www.apple.com/) - Cupertino, CA (06/2026 – Present)
-Information Systems and Technology Junior Developer (Rotation Position)
+Information Systems and Technology Junior Developer
 - Design, execute, and maintain test cases covering end-to-end voice AI call flows, including customer verification, intent detection, and advisor handoff scenarios.
 - Validate critical behavior (e.g., health-topic detection and live-advisor escalation) to ensure safe, compliant conversational handling.
 - Perform regression and cross-environment testing to verify system stability ahead of production releases.
@@ -18,7 +18,7 @@ Information Systems and Technology Junior Developer (Rotation Position)
 
 
 [Apple Inc.](https://www.apple.com/) - Cuppertino, CA (01/2024 – 06/2024)
-JavaScript Software Developer (Six-Month Rotation Position)
+JavaScript Software Developer (Contracted Position)
 - Develop and maintain an internal application that streamlined the radar submission process, significantly reduced processing time and improved user satisfaction across teams.
 - Optimize internal application performance by debugging and refining code, resulting in increase of system efficiency and ensuring seamless functionality and reliability.
 - Engage in thorough code reviews and provide constructive feedback, boosting overall code quality and maintainability.
