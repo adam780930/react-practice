@@ -3,7 +3,7 @@ function Button({ buttonName, buttonType, ...props }) {
     <button
       {...props}
       type={buttonType ? buttonType : "button"}
-      className="text-body bg-neutral-primary-soft border border-default hover:bg-neutral-secondary-medium hover:text-heading focus:ring-4 focus:ring-neutral-tertiary-soft shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none cursor-pointer rounded text-black dark:text-white"
+      className="bg-slate-100 border border-slate-300 hover:bg-slate-200 focus:ring-4 focus:ring-slate-300 shadow-sm font-medium leading-5 text-sm px-4 py-2.5 focus:outline-none cursor-pointer rounded-lg text-slate-900 transition-colors dark:bg-slate-800 dark:border-slate-700 dark:text-slate-100 dark:hover:bg-slate-700 dark:focus:ring-slate-600"
     >
       {buttonName}
     </button>
