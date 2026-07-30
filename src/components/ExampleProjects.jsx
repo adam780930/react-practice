@@ -27,10 +27,10 @@ function ExampleProjects() {
   return (
     <div>
       <h1 className="p-4 text-3xl text-center">React Projects</h1>
-      <div className="grid grid-cols-2 border">
+      <div className="grid grid-cols-2 border dark:border-slate-700">
         {projectLinks.map((project) => (
           <div
-            className="cursor-pointer hover:opacity-50 border"
+            className="cursor-pointer hover:opacity-50 border dark:border-slate-700"
             key={project.projectName}
           >
             <img
