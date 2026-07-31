@@ -4,14 +4,14 @@ import ThemeToggle from "./Themetoggle.jsx";
 
 function Navigation() {
   const pages = [
-    { link: "markdown", linkText: "About this Site" },
-    { link: "contact", linkText: "Contact Me" },
+    { link: "/#markdown", linkText: "About this Site" },
+    { link: "/#contact", linkText: "Contact Me" },
   ];
 
   return (
     <div>
       <header>
-        <nav className="block w-full max-w-5xl px-4 py-2 mx-auto bg-stone-300 bg-opacity-90 sticky top-3 shadow lg:px-8 lg:py-3 backdrop-blur-lg backdrop-saturate-150 z-9999 dark:bg-slate-900/90 dark:text-slate-100 dark:border dark:border-slate-800">
+        <nav className="block w-full max-w-5xl px-4 py-2 mx-auto bg-stone-300 bg-opacity-90 fixed top-3 inset-x-0 shadow lg:px-8 lg:py-3 backdrop-blur-lg backdrop-saturate-150 z-9999 dark:bg-slate-900/90 dark:text-slate-100 dark:border dark:border-slate-800">
           <div className="container flex flex-wrap items-center justify-between mx-auto text-slate-800 dark:text-slate-100">
             <div className="flex items-center gap-1 text-xl">
               <Link to="/">
