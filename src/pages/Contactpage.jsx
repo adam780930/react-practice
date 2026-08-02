@@ -83,7 +83,7 @@ function ContactPage() {
             placeholder="Write your messages here..."
           ></textarea>
         </div>
-        <div className="mb-5 p-2 hover:opacity-50 text-center">
+        <div className="mb-5 p-2 text-center">
           <Buttons buttonName={"Send Message"} buttonType={"submit"} />
         </div>
       </form>

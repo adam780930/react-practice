@@ -42,7 +42,7 @@ function ExampleProjects() {
           </div>
         ))}
       </div>
-      <div className="p-4 text-center hover:opacity-50">
+      <div className="p-4 text-center">
         <Buttons
           onClick={() => {
             window.open("https://project.adamtsaidev.com");

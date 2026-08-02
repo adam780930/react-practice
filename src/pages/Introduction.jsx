@@ -24,7 +24,7 @@ function Introduction() {
         <div className="grid grid-cols-2 p-4">
           <div className="m-auto p-auto">
             <img src={Portrait} className="w-70 h-70 rounded-full border dark:border-slate-700"></img>
-            <div className="p-4 hover:opacity-50 text-center relative top-[5%]">
+            <div className="p-4 text-center relative top-[5%]">
               <Buttons
                 buttonName={"My Experiences"}
                 onClick={handleOpenModal}

@@ -15,8 +15,8 @@ function Navigation() {
           <div className="container flex flex-wrap items-center justify-between mx-auto text-black dark:text-white">
             <div className="flex items-center gap-1 text-xl">
               <Link to="/">
-                <div className="mr-4 block cursor-pointer py-1.5 text-base text-black font-semibold dark:text-white">
-                  My Landing Page
+                <div className="mr-4 block cursor-pointer py-1.5 text-xl text-black font-semibold dark:text-white">
+                  Adam Tsai
                 </div>
               </Link>
               <Reacticons />
@@ -24,12 +24,11 @@ function Navigation() {
             <div className="hidden lg:block">
               <ul className="flex flex-col gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
                 {pages.map((page) => (
-                  <li
-                    className="flex items-center p-1 text-sm gap-x-2 text-black dark:text-white"
-                    key={page.linkText}
-                  >
+                  <li key={page.linkText}>
                     <Link to={page.link}>
-                      <div className="flex items-center">{page.linkText}</div>
+                      <div className="flex items-center rounded-lg border border-slate-300 bg-slate-100 px-3 py-1.5 text-base text-black shadow-sm transition-colors hover:bg-slate-200 dark:border-slate-700 dark:bg-slate-800 dark:text-white dark:hover:bg-slate-700">
+                        {page.linkText}
+                      </div>
                     </Link>
                   </li>
                 ))}
