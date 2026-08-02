@@ -4,14 +4,14 @@ const Modal = ({ modalContent, closeButton, onClose }) => {
       <div className="fixed inset-0  bg-stone-900/75 flex items-center justify-center z-50" onClick={onClose}>
         <div className="rounded-lg shadow-xl w-full max-w-3xl mx-4 bg-stone-300 dark:bg-slate-800 dark:border dark:border-slate-700" onClick={(e) => e.stopPropagation()}>
           <div className="p-4 border-b dark:border-slate-700">
-            <h1 className="text-3xl font-semibold text-black dark:text-slate-100">
+            <h1 className="text-3xl font-semibold text-black dark:text-white">
               Experiences
             </h1>
           </div>
-          <div className="p-4 max-h-[70vh] overflow-y-auto text-black dark:text-slate-100">
+          <div className="p-4 max-h-[70vh] overflow-y-auto text-black dark:text-white">
             {modalContent ? modalContent : ""}
           </div>
-          <div className="p-4 border-t flex justify-end gap-4 text-black dark:text-slate-100 dark:border-slate-700">
+          <div className="p-4 border-t flex justify-end gap-4 text-black dark:text-white dark:border-slate-700">
             <div className="hover:opacity-50">
               {closeButton ? closeButton : ""}
             </div>

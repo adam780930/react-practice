@@ -13,7 +13,7 @@ function ThemeToggle() {
   return (
     <button
       onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-      className="p-2 rounded-lg bg-slate-200 hover:bg-slate-300 text-slate-900 transition-colors dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-100"
+      className="p-2 rounded-lg bg-slate-200 hover:bg-slate-300 text-black transition-colors dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-white"
     >
       {theme === "dark" ? <MdDarkMode /> : <CiLight />}
     </button>
