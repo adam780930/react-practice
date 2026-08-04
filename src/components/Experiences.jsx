@@ -4,16 +4,16 @@ import Exp from "./markdowndocs/Experiences.md";
 function Experiences() {
   const customReactComponents = {
     h1: ({ node, ...props }) => (
-      <h1 className="text-slate-600 dark:text-slate-300" {...props} />
+      <h1 className="text-black dark:text-white" {...props} />
     ),
     h2: ({ node, ...props }) => (
-      <h2 className="text-slate-600 dark:text-slate-300" {...props} />
+      <h2 className="text-black dark:text-white" {...props} />
     ),
     strong: ({ node, ...props }) => (
-      <strong className="text-slate-600 dark:text-slate-300" {...props} />
+      <strong className="text-black dark:text-white" {...props} />
     ),
     a: ({ node, ...props }) => (
-      <a className="text-blue-600 dark:text-blue-400" {...props} />
+      <a className="text-black dark:text-white" {...props} />
     ),
   };
   return (

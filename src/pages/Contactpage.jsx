@@ -17,7 +17,7 @@ function ContactPage() {
   }
 
   return (
-    <div className="bg-stone-block w-full max-w-5xl px-4 py-2 mx-auto bg-stone-300 text-black rounded dark:bg-slate-900 dark:text-slate-100 dark:border dark:border-slate-800">
+    <div className="bg-stone-block w-full max-w-5xl px-4 py-2 mx-auto bg-stone-300 text-black rounded dark:bg-slate-900 dark:text-white dark:border dark:border-slate-800">
       <form className="max-w-full mx-auto" onSubmit={Emailsubmit}>
         <header className="mb-5 my-2 text-center text-3xl">
           <span>Send me an email</span>
@@ -25,7 +25,7 @@ function ContactPage() {
         <div className="form-group mb-5">
           <label
             htmlFor="name"
-            className="block mb-2.5 text-sm font-medium text-slate-700 dark:text-slate-300"
+            className="block mb-2.5 text-sm font-medium text-black dark:text-white"
           >
             Your Name
           </label>
@@ -34,13 +34,13 @@ function ContactPage() {
             required
             id="name"
             name="name"
-            className="bg-white border border-slate-300 text-slate-900 text-sm rounded-lg focus:ring-2 focus:ring-slate-400 focus:border-slate-400 block w-full px-3 py-2.5 shadow-sm dark:bg-slate-800 dark:border-slate-700 dark:text-slate-100 dark:placeholder-slate-500 dark:focus:ring-slate-600 dark:focus:border-slate-600"
+            className="bg-white border border-slate-300 text-black text-sm rounded-lg focus:ring-2 focus:ring-slate-400 focus:border-slate-400 block w-full px-3 py-2.5 shadow-sm dark:bg-slate-800 dark:border-slate-700 dark:text-white dark:placeholder-slate-500 dark:focus:ring-slate-600 dark:focus:border-slate-600"
           />
         </div>
         <div className="form-group mb-5">
           <label
             htmlFor="email"
-            className="block mb-2.5 text-sm font-medium text-slate-700 dark:text-slate-300"
+            className="block mb-2.5 text-sm font-medium text-black dark:text-white"
           >
             Your Email
           </label>
@@ -49,13 +49,13 @@ function ContactPage() {
             required
             id="email"
             name="email"
-            className="bg-white border border-slate-300 text-slate-900 text-sm rounded-lg focus:ring-2 focus:ring-slate-400 focus:border-slate-400 block w-full px-3 py-2.5 shadow-sm dark:bg-slate-800 dark:border-slate-700 dark:text-slate-100 dark:placeholder-slate-500 dark:focus:ring-slate-600 dark:focus:border-slate-600"
+            className="bg-white border border-slate-300 text-black text-sm rounded-lg focus:ring-2 focus:ring-slate-400 focus:border-slate-400 block w-full px-3 py-2.5 shadow-sm dark:bg-slate-800 dark:border-slate-700 dark:text-white dark:placeholder-slate-500 dark:focus:ring-slate-600 dark:focus:border-slate-600"
           />
         </div>
         <div className="form-group mb-5">
           <label
             htmlFor="subject"
-            className="block mb-2.5 text-sm font-medium text-slate-700 dark:text-slate-300"
+            className="block mb-2.5 text-sm font-medium text-black dark:text-white"
           >
             Subject
           </label>
@@ -64,13 +64,13 @@ function ContactPage() {
             required
             id="subject"
             name="subject"
-            className="bg-white border border-slate-300 text-slate-900 text-sm rounded-lg focus:ring-2 focus:ring-slate-400 focus:border-slate-400 block w-full px-3 py-2.5 shadow-sm dark:bg-slate-800 dark:border-slate-700 dark:text-slate-100 dark:placeholder-slate-500 dark:focus:ring-slate-600 dark:focus:border-slate-600"
+            className="bg-white border border-slate-300 text-black text-sm rounded-lg focus:ring-2 focus:ring-slate-400 focus:border-slate-400 block w-full px-3 py-2.5 shadow-sm dark:bg-slate-800 dark:border-slate-700 dark:text-white dark:placeholder-slate-500 dark:focus:ring-slate-600 dark:focus:border-slate-600"
           />
         </div>
         <div className="form-group mb-5">
           <label
             htmlFor="message"
-            className="block mb-2.5 text-sm font-medium text-slate-700 dark:text-slate-300"
+            className="block mb-2.5 text-sm font-medium text-black dark:text-white"
           >
             Message
           </label>
@@ -79,11 +79,11 @@ function ContactPage() {
             required
             row="5"
             name="message"
-            className="bg-white border border-slate-300 text-slate-900 text-sm rounded-lg focus:ring-2 focus:ring-slate-400 focus:border-slate-400 block w-full p-3.5 shadow-sm dark:bg-slate-800 dark:border-slate-700 dark:text-slate-100 dark:placeholder-slate-500 dark:focus:ring-slate-600 dark:focus:border-slate-600"
+            className="bg-white border border-slate-300 text-black text-sm rounded-lg focus:ring-2 focus:ring-slate-400 focus:border-slate-400 block w-full p-3.5 shadow-sm dark:bg-slate-800 dark:border-slate-700 dark:text-white dark:placeholder-slate-500 dark:focus:ring-slate-600 dark:focus:border-slate-600"
             placeholder="Write your messages here..."
           ></textarea>
         </div>
-        <div className="mb-5 p-2 hover:opacity-50 text-center">
+        <div className="mb-5 p-2 text-center">
           <Buttons buttonName={"Send Message"} buttonType={"submit"} />
         </div>
       </form>

@@ -12,19 +12,19 @@ function Introduction() {
 
   const customReactComponents = {
     h1: ({ node, ...props }) => (
-      <h1 className="text-slate-600 dark:text-slate-300" {...props} />
+      <h1 className="text-black dark:text-white" {...props} />
     ),
     a: ({ node, ...props }) => (
-      <a className="text-blue-600 dark:text-blue-400" {...props} />
+      <a className="text-black dark:text-white" {...props} />
     ),
   };
   return (
     <div>
-      <div className="bg-stone-block w-full max-w-5xl px-4 py-2 mx-auto bg-stone-300 text-black rounded dark:bg-slate-900 dark:text-slate-100 dark:border dark:border-slate-800">
+      <div className="bg-stone-block w-full max-w-5xl px-4 py-2 mx-auto bg-stone-300 text-black rounded dark:bg-slate-900 dark:text-white dark:border dark:border-slate-800">
         <div className="grid grid-cols-2 p-4">
           <div className="m-auto p-auto">
             <img src={Portrait} className="w-70 h-70 rounded-full border dark:border-slate-700"></img>
-            <div className="p-4 hover:opacity-50 text-center">
+            <div className="p-4 text-center relative top-[5%]">
               <Buttons
                 buttonName={"My Experiences"}
                 onClick={handleOpenModal}
