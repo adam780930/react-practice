@@ -4,7 +4,7 @@ import ThemeToggle from "./Themetoggle.jsx";
 
 function Navigation() {
   const pages = [
-    { link: "/#markdown", linkText: "About this Site" },
+    { link: "/#markdown", linkText: "Sample Projects" },
     { link: "/#contact", linkText: "Contact Me" },
   ];
 
